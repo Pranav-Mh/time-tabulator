@@ -7,7 +7,9 @@ const PORT = 8000;
 app.use(cors());
 app.use(express.json());
 
-// Test route (will be added later by Mahek)
+// ✅ Import and use the route
+const testRoute = require('./routes/testRoute');
+app.use("/", testRoute); // Now GET / will respond
 
 // Start server
 app.listen(PORT, () => {
