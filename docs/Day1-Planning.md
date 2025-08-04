@@ -97,3 +97,18 @@
 - `DELETE /timetable/:id`
 
 ---
+---
+
+## 📌 Day 2: ER Diagram
+
+- ER Diagram was created using [Erases.com](https://erases.com)
+- Entities include:
+  - Teachers
+  - Subjects
+  - Divisions
+  - Batches
+  - Rooms
+  - TimeConfig
+  - Timetable
+
+📎 Attached Diagram: [ERD-Day2.png](./ERD-Day2.png)
